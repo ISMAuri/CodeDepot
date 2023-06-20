@@ -1,0 +1,46 @@
+* {
+    font-weight: 100;
+    font-family: 'Sen', sans-serif;
+}
+
+.container {
+    background-color: #616;
+    padding: 21px 6px;
+}
+
+.caja {
+    background: #ff0;
+    height: 100px;   
+    width: 100px;
+    transition-property: left, background;
+    transition-duration: 3s, 1s;
+    /* transition-delay: 0.2s; */
+    margin: 30px;
+    position: relative;
+    left: 0;
+}
+
+.container:hover > .caja {
+    left: 80%; /* en lugar de este tipo de practicas es mejor usar tranform, consume menos recursos*/
+    background: #644;
+}
+
+.caja:first-child {
+    transition-timing-function: linear;
+}
+
+.caja:nth-child(2) {
+    transition-timing-function: ease;
+}
+
+.caja:nth-child(3) {
+    transition-timing-function: ease-in; 
+}
+
+.caja:nth-child(4) {
+    transition-timing-function: ease-out;
+}
+
+.caja:nth-child(5) {
+    transition-timing-function: ease-in-out;
+}

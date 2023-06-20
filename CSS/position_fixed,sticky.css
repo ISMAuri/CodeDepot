@@ -1,0 +1,15 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+/* .fixed {
+    background: blue ;
+    position: fixed;
+    margin: -100px;
+} */
+.fixed {
+    background: blue;
+    position: sticky;
+    top: 0px;
+}

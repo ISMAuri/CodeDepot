@@ -1,0 +1,28 @@
+* {
+    font-weight: 100;
+    font-family: 'Sen', sans-serif;
+}
+
+.div-responsive {
+    background: #009;
+}
+
+@media screen and (min-width: 400px) and (max-width: 650px) {
+    .div-responsive {
+        background: red;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 900px) {
+    .div-responsive {
+        background: orange;
+    }
+}
+
+
+@media screen and (min-width: 900px){
+    .div-responsive {
+        background: black;
+        color: aqua;
+    }
+}

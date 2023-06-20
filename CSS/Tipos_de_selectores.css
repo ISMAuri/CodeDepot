@@ -1,0 +1,23 @@
+/* SELECTORES: https://www.w3schools.com/cssref/css_selectors.php */
+
+/* Selector universal */
+* {color : red;}
+
+/* Selector de tipo */
+h1 {color : #ab32de}
+
+/* Selector por clases */
+.frozen { color: blue;}
+
+/* Selector por id */
+#boton {color: darkslateblue;}
+
+/* Selector por atributo */
+[atributo="random"] {color: indianred;}
+
+/* Selector por descendencia */
+h2 p {color: yellow;}
+
+/* Selector por pseudoclase */
+p:hover {color: black;}
+

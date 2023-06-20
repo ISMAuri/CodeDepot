@@ -1,0 +1,51 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+/* No funcionan con elementos en linea (inline(si funciona con inline-block)) */
+.texto {
+    padding: 20px ;
+}
+
+.texto::first-line {
+    color: blue;
+    font-size: 1em;
+}
+
+.texto::first-letter {
+    font-size: 4em;
+    color: red;
+}
+
+form {
+    margin: 100px;
+    display: block;
+}
+
+input {
+    padding: 10px;
+}
+
+input::placeholder {
+    opacity: 0.5;
+    color: black;
+    font-size: 80%;
+}
+
+.texto::selection {
+    color: white;
+    background: black;
+}
+
+
+/* ojo que estos dos no se pueden 'seleccionar' o subrayar */
+b::before {
+    content: 'me suscribi ';
+    color: blue;
+}
+b::after {
+    content: ' soy dalto';
+    color: whitesmoke;
+    background: black;
+}

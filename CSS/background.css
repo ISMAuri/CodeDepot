@@ -1,0 +1,25 @@
+* {
+    font-weight: 100;
+    font-family: 'Sen', sans-serif;
+}
+
+body {
+    background-color: aqua;
+}
+
+.container {
+    padding: 30px;
+    background: #86f;
+    /* border: 20px solid red; */
+    /* width: 360px; */
+    height: 360px;
+    margin: 40px 0;
+    background-image: url(https://i.pinimg.com/originals/e1/98/51/e19851418307d3130969456f7dd6b77d.jpg);
+    background-size: cover; /*auto, cover, contain o (x, y)*/
+    background-repeat: no-repeat;
+    /* background-clip: content-box; border-box,padding-box, content-box
+    background-origin: content-box; */
+    /* background-size: 164px; */
+    /* background-position: left center; */
+    background-attachment: fixed;
+}

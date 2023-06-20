@@ -1,0 +1,40 @@
+* {
+    font-weight: 100;
+    font-family: 'Sen', sans-serif;
+}
+
+.container {
+    background-color: #616;
+    padding: 21px 6px;
+}
+
+.caja {
+    background: #ff0;
+    height: 100px;   
+    width: 100px;
+    margin: 30px;
+    position: relative;
+    animation-name: desplazarse;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.09,.76,.83,.33); /*linear, ease, ease-in, ease-out, ease-in-out*/
+    animation-direction: alternate; /*normal, reverse, alternate, alternate-reverse.*/ 
+    animation-fill-mode: both; /*forward*/
+}
+
+/* se puede usar from & to */
+@keyframes desplazarse {
+    0% {
+        position: relative;
+        left: 0;
+        background: yellow;
+    }
+    50% {
+        background: red;
+    }
+    100% {
+        left: 80%;
+        background: green;
+    } 
+}

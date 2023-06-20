@@ -1,0 +1,5 @@
+.form__input:first-child {color: blue;}
+
+.form__input--active {color:yellowgreen}
+
+.contact-form__input-p {color: aquamarine;}

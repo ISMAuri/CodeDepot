@@ -1,0 +1,50 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #121;
+}
+
+.flex-item {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 30px;
+    max-width: 300px;
+    padding: 12px;
+    border: 3px solid #222;
+}
+
+.flex-item:hover {
+    border-color: #333;
+    box-shadow: 0 0 15  px #555;
+}
+
+.flex-item:focus {
+    border-color: #333;
+    box-shadow: 0 0 13px #555;
+}
+
+img {
+    max-width: 280px;
+    padding: 4px;
+    border: 3px solid #fff;
+}
+
+form {
+    text-align: center;
+    padding: 50px;
+}
+
+input[type="submit"] {
+    background: #171;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2f2;
+}

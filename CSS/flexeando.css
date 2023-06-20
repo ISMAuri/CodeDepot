@@ -1,0 +1,45 @@
+* {
+    font-weight: 100;
+    font-family: 'Geologica', sans-serif;
+}
+
+/* propiedades que se aplican al contenedor para afectar items */
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    /*flex-direction: column-reverse;*/
+    flex-wrap: wrap;
+    /*flex-flow: column-reverse wrap-reverse; 
+    align-content: baseline;
+    flex-flow: wrap-reverse;*/
+}
+
+
+.flex-item {
+    background-color: #247;
+    color: #fff;
+    margin: 2px;
+    min-width: 120px;
+    height: 120px;
+    text-align: center;
+    width: 300px;
+}  
+
+.orange {
+    background-color: orange;
+    flex-grow: 2;/*espacio sobrante se reparte*/
+    /* flex-basis: 300px;   mas prioridad que width
+    width: 200px; */
+    order: 1; /*como en el z-index, pero en direccion del main axis */
+}
+
+.green { 
+    background: green;
+    /* align-self: center; */
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+    /* ^ Esto ^  es igual a ↓ esto ↓*/
+    flex: 1, 0 , 200px;
+}

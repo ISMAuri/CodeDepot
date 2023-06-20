@@ -1,0 +1,19 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.caja1 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: auto;
+    outline: 10px solid blueviolet;
+    box-sizing: content-box;
+}
+
+.caja2 {
+    width: 200px;
+    height: 200px;
+    background: #ab32de;
+    margin: auto;
+}

@@ -1,0 +1,21 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+ 
+h2 {
+    background-color: brown;
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 50%;
+    border: 10px solid #00c;
+    box-shadow: 2px 4px 15px 6px #000;
+    text-shadow: 2px 3px 7px #fff, 2px 4px 7px #fff;
+    transform: rotate(180deg);
+
+}
+/* Top,Bottom Right,Left */
+/* Top Right Bottom Left */

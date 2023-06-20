@@ -1,0 +1,18 @@
+*{
+    background-color: lightblue;
+    color: #222;
+    font-family: sans-serif;
+}
+
+.grande {
+    font-size: 4em;
+}
+
+.title {
+    letter-spacing: 1.5px;
+    color: #00f;
+}
+
+.pequeño {
+    font-size: 16px;
+}

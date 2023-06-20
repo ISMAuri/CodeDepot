@@ -1,0 +1,25 @@
+* {
+    font-weight: 100;
+    font-family: 'Sen', sans-serif;
+}
+
+:root {
+    --rojo: red;
+    --azul: blue;
+}
+
+div {
+    --medida: 150px;
+    --otra--medida: 30px;
+    padding: var(--otra--medida);
+    margin: var(--otra--medida);
+    height: var(--medida);
+    width: var(--medida);
+}
+
+.container {
+    background: var(--rojo);
+}
+.container-2 {
+    background: var(--azul);
+}

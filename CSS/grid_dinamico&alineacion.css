@@ -1,0 +1,102 @@
+* {
+    font-weight: 100;
+    font-family: 'Geologica', sans-serif;
+}
+body {
+    background: radial-gradient(circle,#fff,#ccc);
+    padding: 12px;
+}
+
+/* hay una propiedad llamada 'grid-template' que abrevia columns,rows y areas no recomendada porque marea un poquito
+
+'grid' es un shorthand de las propiedades del grid, tanto implicitas como explicitas*/
+
+.grid-container {
+    height: 600px;
+    background-color: #777;
+    display: grid;
+    grid-template-columns: 
+    [first]  /* por si queremos darle nombre para utilizarlo despues*/
+    200px 
+    [second]
+    200px
+    [third]
+    200px ;
+    grid-template-rows: repeat(3,150px);
+    border: 3px solid #000;
+    justify-content:space-around;
+    align-content:space-evenly;
+    justify-items: center;
+    align-items: center;
+}
+
+/* .grid-container:hover {
+    justify-content: space-around;
+    align-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+} */
+
+.grid-item {
+    border: 2px solid #000;
+    background: #999;
+    font-size: 20px;
+    padding: 45px;
+}
+
+.grid-item:first-child {
+    place-self: start; /* align,justify--self*/
+    background-color: red;
+}
+
+.grid-item:nth-child(3) {
+    align-self: start;
+    justify-self: end;
+    background-color: red;
+}
+
+.grid-item:nth-child(4) {
+    justify-self: end;
+}
+
+.grid-item:nth-child(5) {
+    background-color: #090;
+}
+
+.grid-item:nth-child(6) {
+    justify-self: start;
+}
+
+.grid-item:nth-child(7) {
+    align-self: end;
+    justify-self: start;
+    background-color: red;
+}
+
+.grid-item:last-child {
+    align-self: end;
+    justify-self: end;
+    background-color: red;
+}
+
+
+/* .grid-item:first-child {
+    background-color: red;
+    grid-column: 1 / 3; Es lo mismo que: 
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    grid-row: 1 / span 3;
+} */
+/* .grid-item:nth-child(9) {
+    grid-column: 1 / span 4;
+} */
+    
+
+
+
+/* 
+SE PUEDE APLICAR ORDER PERO ES CAOTICO (EN ESTE CASO)
+
+.grid-item:first-child {
+    order: 3;
+} */

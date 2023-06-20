@@ -1,0 +1,46 @@
+* {
+    font-weight: 100;
+    font-family: 'Sen', sans-serif;
+}
+
+.container {
+    filter: contrast(20);
+    background-color: #fff;
+}
+
+.caja {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: red;
+    margin: 40px;
+    border-radius: 50%;
+    filter: blur(20px);
+}
+
+.caja:first-child {
+    animation: transladar 1.8s alternate infinite;
+}
+.caja:nth-child(2) {
+    animation: abajo 1.8s alternate infinite;
+}
+
+@keyframes transladar {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(160px);
+    }
+    
+}
+
+/* @keyframes abajo {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translateY(160px);
+    }
+    
+} */

@@ -1,0 +1,39 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+div {
+    width:150px ;
+    height: 160px;
+    display: block;
+    background: yellow;
+}
+
+.caja1 {
+    background-color: orange;
+    position: relative;
+}
+.caja2 {
+    background-color: green;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+}
+
+.contenedor{
+    position: static;
+}
+.caja3 {
+    background-color: lightblue;
+}
+
+.hijo {
+    background: black ;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}

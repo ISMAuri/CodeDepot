@@ -1,0 +1,14 @@
+* {
+    font-weight: 100;
+    font-family: 'Sen', sans-serif;
+}
+
+div {
+    filter: blur(4px) brightness(0.83) contrast(1.4) drop-shadow(10px 10px 5px #333) grayscale(0.55) hue-rotate(10deg) invert(0%) opacity(0.89) saturate(200%) sepia(0%);
+     /*blur, brightness,contrast ,drop-shadow ,grayscale, hue-rotate, invert, opacity, saturate, sepia
+    
+     drop-shadow es mas que todo para imagenes con fondo transparente
+    hue-rotate invierte la gama de colores 
+    sepia es un color*/
+
+}

@@ -1,0 +1,26 @@
+* {
+    font-weight: 100;
+    font-family: 'Sen', sans-serif;
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: red;
+    color: aqua;
+  }
+  
+.container {
+    padding: 20px;
+    background: #59f;
+    font-size: 20px;
+    direction: rtl; /*"right to left"*/
+    letter-spacing: 4px;
+    user-select: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#content {
+    background-color: blue;
+}
+
+/* SELECTORES: https://www.w3schools.com/cssref/css_selectors.php */

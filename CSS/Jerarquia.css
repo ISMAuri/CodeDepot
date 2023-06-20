@@ -1,0 +1,16 @@
+h1 {color: black !important;}
+
+/* 'style="color:yellow"' en el archivo.html tiene mayor jerarquia (estilo de linea) */
+
+#xd {color: firebrick;}
+
+.clase {color: red;}
+
+h1 {color: blue;}
+
+
+/* !important
+estilos de linea
+ID
+pseudo,clases,atributos
+pseudo,elementos */

@@ -1,0 +1,94 @@
+/* No es la manera mas optima pero no esta de mas aplicar
+conocimientos. */
+
+* {
+    font-weight: 100;
+    font-family: 'Geologica', sans-serif;
+}
+body {
+    background-color: #444;
+}
+
+.nav__responsive-ul {
+    display: none;
+}
+
+.nav__li-container {
+    position: relative;
+    top: -1000px;
+}
+
+.nav {
+    background: #CC1212;   
+}
+li {
+    display: inline-block;
+    padding: 16px;
+    color: #fff;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.nav__li:hover > a {
+    color: #444;
+}
+.nav__responsive-li:hover > a {
+    color: #444;
+}
+
+.fas:hover {
+    color: #444;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav__ul {
+        display: none;
+    }
+
+    .nav__responsive-button {
+        float: right;
+        font-size: 40px;
+        color: #fff;
+        padding: 6px 18px;
+    }
+
+
+    .nav__responsive-ul {
+        display: block;
+        position: absolute;
+        width: 100%;
+        margin-top: 54px;
+        height: 0px;
+        
+        
+    }
+    .nav {
+        height: 54px;
+        width: 100%;
+    }
+    .nav__responsive-li {
+        width: 100%;
+        padding-top: 25px;
+    }
+    .nav__li-container{
+        position: relative;
+        top: -1000px;
+        height: 100vh;
+        background: #E01414;
+        transition: 1.2s;
+        z-index: -1;
+        width: 80%;
+    }
+    .nav__responsive-button-container {
+        margin-top: -54px;
+    }
+    .nav__responsive-ul:hover > .nav__li-container {
+        top: 54px;
+    }
+    
+}
+ 
