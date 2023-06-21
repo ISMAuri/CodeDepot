@@ -1,0 +1,17 @@
+Los datos son:
+
+Nombre: Ismael
+Apellido: Castillo
+----------
+Nombre: Dalto
+Apellido: Lucas
+----------
+Nombre: Matias
+Apellido: Dororo
+----------
+Nombre: Camila
+Apellido: Lucas
+----------
+Nombre: Elmo
+Apellido: Reno
+----------
