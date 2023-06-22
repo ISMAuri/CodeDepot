@@ -1,0 +1,23 @@
+body {
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.contenedorrojo {
+    padding: 20px;
+    background-color: red;
+}
+
+.contenedorazul {
+    padding: 20px;
+    background-color: blue;
+}
+.input {
+    padding: 12px;
+    background-color: aqua;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
