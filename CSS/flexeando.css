@@ -17,7 +17,7 @@
 
 
 .flex-item {
-    background-color: #247;
+    background-color: rgb(255,0,0); 
     color: #fff;
     margin: 2px;
     min-width: 120px;
