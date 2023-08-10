@@ -1,4 +1,4 @@
-# EJEMPLO SACADO DE CHATGPT BASTANTE SENCILLO
+# En Python todo es un objeto
 
 class Perro:
     def __init__(self, nombre, edad, raza):

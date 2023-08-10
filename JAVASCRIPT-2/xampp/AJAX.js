@@ -1,7 +1,7 @@
 let request;
 
 if (window.XMLHttpRequest) request = new XMLHttpRequest();
-else request = new ActiveXObject('Microsoft.XMLHTTP')
+else request = new ActiveXObject('Microsoft.XMLHTTP');
 
 // NO SE HACE ASI, un ejemplo
 request.addEventListener('load', () => {
@@ -12,4 +12,4 @@ request.addEventListener('load', () => {
 request.open('get','info.txt');
 request.send();
 
-// console.log(request);
+console.log(request);
